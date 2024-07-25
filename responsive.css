@@ -41,7 +41,7 @@
         border-radius: 50%;
 
     }
-
+   
 #icons{
     position: absolute;
     top: 540px;
@@ -183,6 +183,9 @@
 
 /* Tablet media query */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+    *{
+        font-size: 25px;
+    }
     .container {
         position: relative;
         height: 700px;
@@ -222,5 +225,84 @@
     }
     .projects{
         padding-left: 190px;
+    }
+    
+    .projects {
+        /* margin-top: 20px; */
+        display: flex;
+        width: 1100px;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .projects ul{
+        padding: 10px;
+    }
+    .p1 , .p2{
+        margin-left: 50px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1324px) {
+    .container {
+        position: relative;
+        height: 700px;
+        /* top: 160px; */
+        width: 190vh;
+        /* padding: 120px; */
+    }
+    #icons {
+        position: absolute;
+        top: 520px;
+        left: 1260px;
+        transform: scale(2.8);
+        /* background-color: red; */
+         /* padding: 30px;  */
+    }
+    .skills {
+        margin-top: 550px;
+        font-size: 20px;
+        position: relative;
+    }
+    .experience {
+        position: absolute;
+        margin-top: 50px;
+        /* padding-left: 20px; */
+        width: 160vh;
+        font-size: 20px;
+
+
+    }
+    .container2 {
+        margin-top: 460px;
+        width: 190vh;
+    }
+
+    #line {
+        width: 100%;
+        margin: 10px;
+
+    }
+    footer{
+        width: 190vh;
+    }
+    .footer-content{
+       width: 160vh;
+    }
+    .projects{
+        /* padding-left: 190px; */
+    }
+    .projects {
+        /* margin-top: 20px; */
+        display: flex;
+        width: 1500px;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .projects ul{
+        padding: 10px;
+    }
+    .p1 , .p2{
+        margin-left: 50px;
     }
   }
