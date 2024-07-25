@@ -49,6 +49,7 @@ nav a:active {
 
 #me {
     font-weight: bolder;
+    font-size: 25px;
 }
 
 .container {
@@ -68,16 +69,13 @@ nav a:active {
     margin-left: 80px;
     margin-top: 180px;
 }
-
-
-
 p {
     line-height: 40px;
 }
 
 img {
     border: 2px solid #18bc9b85;
-    width: 100%;
+    width: 80%;
     height: 300px;
     object-fit: cover;
     border-radius: 150px;
@@ -92,8 +90,8 @@ img {
 }
 #icons {
     position: absolute;
-    top: 500px;
-    left: 1200px;
+    top: 520px;
+    left: 1160px;
     transform: scale(2.8);
     /* background-color: red; */
      /* padding: 30px;  */
